@@ -11,6 +11,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'sass', '3.2.19'
 gem 'bower-rails'
+gem 'angular-rails-templates'
+gem 'sprockets', '~> 2.0'
+gem 'foreman'
 
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
