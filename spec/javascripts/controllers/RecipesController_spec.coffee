@@ -13,8 +13,6 @@ describe 'RecipesController', ->
             resource = $resource
             routeParams = $routeParams
             routeParams.keywords = keywords
-
-            # capture the injected service
             httpBackend = $httpBackend
 
             if results
